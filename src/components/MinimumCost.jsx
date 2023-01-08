@@ -1,3 +1,5 @@
+import picture from "../assets/unsplash_oGmf8o53LeE.png";
+
 const Minimum_Cost = () => {
   return (
     <>
@@ -7,7 +9,12 @@ const Minimum_Cost = () => {
         </h1>
 
         <div>
-            
+          <picture>
+            <img src={picture} alt=""  className=""/>
+          </picture>
+          <div>
+
+          </div>
         </div>
       </section>
     </>
