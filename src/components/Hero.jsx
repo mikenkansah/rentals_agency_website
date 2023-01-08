@@ -37,13 +37,14 @@ const Hero = () => {
               </h1>
             </div>
             <div>
-              <img src={map} alt="" />
+              <div className="bg-green-500 inline-block p-0 "> <img src={map} alt="" className="" /></div>
+             
               <div className="flex p-6 bg-white ">
-                <select className=" border-2 p-2 border-r-0 ">
-                  <option>All Type</option>
+                <select className=" border-2  px-6 border-r-0 ">
+                  <option className="">All Type</option>
                 </select>
-                <select className=" border-2 ">
-                  <option>Neighbourhood</option>
+                <select className=" border-2 px-6">
+                  <option className="">Neighbourhood</option>
                 </select>
                 <button className="bg-blue-400 p-4"><img src={searchIcon} alt=""/></button>
               </div>
