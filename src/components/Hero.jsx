@@ -28,14 +28,22 @@ const Hero = () => {
           </nav>
           <hr className="brightness-75 mt-2"></hr>
 
-          <div className="flex flex-col md:flex-row justify-between md:mt-20">
+          <div className="flex flex-col md:flex-row justify-between md:mt-24">
             <div>
-              <h1 className="text-white text-7xl">
+              <h1 className="text-white text-7xl md:mt-32 font-semibold ">
                 The Most Affordable  <br></br>Place To Stay In The <br></br>San Francisco Bay Area{" "}
               </h1>
             </div>
             <div>
               <img src={map} alt="" />
+              <div className="flex p-8 bg-white ">
+              <select className=" border-2 p-2 border-r-0 ">
+                 <option>All Type</option> 
+              </select>
+              <select className=" border-2 ">
+                 <option>Neighbourhood</option> 
+              </select>
+              </div>
             </div>
           </div>
         </div>
