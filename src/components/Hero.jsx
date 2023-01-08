@@ -28,7 +28,7 @@ const Hero = () => {
           </nav>
           <hr className="brightness-75 mt-2"></hr>
 
-          <div className="flex flex-col md:flex-row justify-between mt-10">
+          <div className="flex flex-col md:flex-row justify-between md:mt-20">
             <div>
               <h1 className="text-white text-7xl">
                 The Most Affordable  <br></br>Place To Stay In The <br></br>San Francisco Bay Area{" "}
