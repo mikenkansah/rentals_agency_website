@@ -7,14 +7,11 @@ const Minimum_Cost = () => {
         <h1 className="text-4xl underline decoration-red-500 underline-offset-[10px] decoration-4">
           Minimum Living Cost Takes Care Of Everything
         </h1>
-
         <div>
           <picture>
-            <img src={picture} alt=""  className=""/>
+            <img src={picture} alt="" className="" />
           </picture>
-          <div>
-
-          </div>
+          <div></div>
         </div>
       </section>
     </>
