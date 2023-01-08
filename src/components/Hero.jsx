@@ -1,6 +1,7 @@
 import hero from "../assets/hero.png";
 import logo from "../assets/logo.png";
 import map from "../assets/map.png";
+import searchIcon from "../assets/vector.png";
 const Hero = () => {
   return (
     <>
@@ -37,13 +38,14 @@ const Hero = () => {
             </div>
             <div>
               <img src={map} alt="" />
-              <div className="flex p-8 bg-white ">
+              <div className="flex p-6 bg-white ">
                 <select className=" border-2 p-2 border-r-0 ">
                   <option>All Type</option>
                 </select>
                 <select className=" border-2 ">
                   <option>Neighbourhood</option>
                 </select>
+                <button className="bg-blue-400 p-4"><img src={searchIcon} alt=""/></button>
               </div>
             </div>
           </div>
