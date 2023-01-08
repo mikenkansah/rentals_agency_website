@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="md:mx-[10rem]">
           <nav className="flex  pt-4 ">
             <img src={logo} alt="" className="inline" />
-            <ul className="flex  gap-10 ml-[30rem] text-white  text-2xl  ">
+            <ul className="flex  gap-14 ml-[30rem] text-white  text-2xl  ">
               <li className="hover:underline hover:underline-offset-[22px] hover:decoration-[3px] z-[1] cursor-pointer">
                 Home
               </li>
@@ -31,19 +31,19 @@ const Hero = () => {
 
           <div className="flex flex-col md:flex-row justify-between md:mt-24">
             <div>
-              <h1 className="text-white text-7xl md:mt-32 font-semibold ">
+              <h1 className="text-white md:text-7xl text-4xl md:mt-32 font-semibold ">
                 The Most Affordable <br></br>Place To Stay In The <br></br>San
                 Francisco Bay Area{" "}
               </h1>
             </div>
             <div>
-              <div className="bg-green-500 inline-block p-0 "> <img src={map} alt="" className="" /></div>
+              <div className="bg-green-500 inline-block p-0 " > <img src={map} alt="" className="" /></div>
              
-              <div className="flex p-6 bg-white ">
-                <select className=" border-2  px-6 border-r-0 ">
+              <div className="flex p-6 bg-white " style={{borderRadius:'10px'}}>
+                <select className=" border-2 bg-slate-100 px-6 border-r-0 ">
                   <option className="">All Type</option>
                 </select>
-                <select className=" border-2 px-6">
+                <select className=" border-2 px-6 bg-slate-100 ">
                   <option className="">Neighbourhood</option>
                 </select>
                 <button className="bg-blue-400 p-4"><img src={searchIcon} alt=""/></button>
