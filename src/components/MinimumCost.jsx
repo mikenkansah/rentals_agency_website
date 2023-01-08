@@ -1,6 +1,6 @@
 import picture from "../assets/unsplash_oGmf8o53LeE.png";
 
-const Minimum_Cost = () => {
+const MinimumCost = () => {
   return (
     <>
       <section className="my-10 md:mx-[10rem]">
@@ -18,4 +18,4 @@ const Minimum_Cost = () => {
   );
 };
 
-export default Minimum_Cost;
+export default MinimumCost;
