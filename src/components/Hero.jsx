@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row justify-between mt-10">
             <div>
               <h1 className="text-white text-7xl">
-                The most affordable  <br></br>place to stay in the <br></br>san francisco bay area{" "}
+                The Most Affordable  <br></br>Place To Stay In The <br></br>San Francisco Bay Area{" "}
               </h1>
             </div>
             <div>
