@@ -9,3 +9,18 @@
     box-sizing: border-box;
     font-family: 'Fraunces', serif;
 }
+
+.underline-small {
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small::after {
+    content: '';
+    height: 3px;
+    width: 45%;
+    background: #f24432;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}

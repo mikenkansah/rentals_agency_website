@@ -1,6 +1,6 @@
 import hero from "../assets/hero.png";
 import logo from "../assets/logo.png";
-import map from "../assets/map.png";
+import map from "../assets/istockphoto-485504378-612x612.jpg";
 import searchIcon from "../assets/vector.png";
 const Hero = () => {
   return (
@@ -37,7 +37,7 @@ const Hero = () => {
               </h1>
             </div>
             <div>
-              <div className="bg-green-500 inline-block p-0 " > <img src={map} alt="" className="" /></div>
+              <div className=" inline-block p-0 max-w-[25rem] " > <img src={map} alt="" className="rounded-xl" /></div>
              
               <div className="flex p-6 bg-white " style={{borderRadius:'10px'}}>
                 <select className=" border-2 bg-slate-100 px-6 border-r-0 ">
