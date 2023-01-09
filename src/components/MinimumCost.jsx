@@ -1,6 +1,10 @@
 // import picture from "../assets/unsplash_oGmf8o53LeE.png";
 import picture from "../assets/pramod-tiwari-GDgCAUWN05s-unsplash.jpg";
 import Vector1 from "../assets/Vector2.png";
+import Vector2 from "../assets/Vector3.png";
+import Vector3 from "../assets/Vector4.png";
+import Vector4 from "../assets/Vector5.png";
+import Vector5 from "../assets/Vector6.png";
 
 const MinimumCost = () => {
   return (
@@ -21,27 +25,27 @@ const MinimumCost = () => {
             <div className="flex justify-between gap-x-32 flex-wrap">
               <div>
                 <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Pay As Little <br></br>As Possible!</p>
               </div>
               <div>
-                <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <img src={Vector2} alt="" />
+                <p>Lorem ipsum dolor sit.</p>
               </div>
               <div>
-                <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <img src={Vector3} alt="" />
+                <p>Lorem ipsum dolor sit.</p>
               </div>
               <div>
-                <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <img src={Vector4} alt="" />
+                <p>Lorem ipsum dolor sit.</p>
               </div>
               <div>
-                <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <img src={Vector5} alt="" />
+                <p>Lorem ipsum dolor sit.</p>
               </div>
               <div>
-                <img src={Vector1} alt="" />
-                <h1>Lorem ipsum dolor sit.</h1>
+                <img src={Vector5} alt="" />
+                <p>Lorem ipsum dolor sit.</p>
               </div>
             </div>
           </div>
