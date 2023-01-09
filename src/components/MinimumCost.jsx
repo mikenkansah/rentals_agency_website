@@ -14,7 +14,7 @@ const MinimumCost = () => {
           <h1 className="underline-small text-4xl">
             Minimum Living Cost Takes Care Of Everything
           </h1>
-          <div className="mt-6 flex md:flex-row flex-col ">
+          <div className="mt-8 flex gap-10 md:flex-row flex-col ">
             <picture>
               <img
                 src={picture}
@@ -22,29 +22,29 @@ const MinimumCost = () => {
                 className="aspect-square max-w-[330px] h-[500px] object-cover rounded-tl-[4rem] rounded-br-[4rem]"
               />
             </picture>
-            <div className="flex justify-between gap-x-32 flex-wrap">
+            <div className="flex  gap-x-[14rem] flex-wrap mt-14 ">
               <div>
-                <img src={Vector1} alt="" />
+                <img src={Vector1} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl"  />
                 <p>Pay As Little <br></br>As Possible!</p>
               </div>
               <div>
-                <img src={Vector2} alt="" />
+                <img src={Vector2} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl" />
                 <p>Enjoy Wisdom <br></br>of Community!</p>
               </div>
               <div>
-                <img src={Vector3} alt="" />
-                <p>Let Somebody Else <br></br>Take Care Of Landlord</p>
-              </div>
+                <img src={Vector3} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl" />
+                <p>Enjoy Peaceful <br></br>Environment!</p>
+                              </div>
               <div>
-                <img src={Vector4} alt="" />
+                <img src={Vector4} alt="" className="aspect-square bg-white p-4 rounded-lg mb-2 shadow-2xl" />
                 <p>Enjoy Peaceful <br></br>Environment!</p>
               </div>
-              <div>
-                <img src={Vector5} alt="" />
+              <div className="">
+                <img src={Vector5} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl" />
                 <p>Stay Safe! <br></br>Save Money! </p>
               </div>
               <div>
-                <img src={Vector5} alt="" />
+                <img src={Vector5} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl" />
                 <p>Pay For <br></br>You Use! </p>
               </div>
             </div>

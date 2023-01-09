@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className={`bg-cover bg-no-repeat h-[100vh]`}
+        className={`bg-cover bg-no-repeat h-[100vh] overflow-hidden`}
         style={{ backgroundImage: `url(${hero})` }}
       >
         <div className="md:mx-[10rem]">
