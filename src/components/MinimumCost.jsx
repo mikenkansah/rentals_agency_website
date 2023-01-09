@@ -29,23 +29,23 @@ const MinimumCost = () => {
               </div>
               <div>
                 <img src={Vector2} alt="" />
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Enjoy Wisdom <br></br>of Community!</p>
               </div>
               <div>
                 <img src={Vector3} alt="" />
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Let Somebody Else <br></br>Take Care Of Landlord</p>
               </div>
               <div>
                 <img src={Vector4} alt="" />
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Enjoy Peaceful <br></br>Environment!</p>
               </div>
               <div>
                 <img src={Vector5} alt="" />
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Stay Safe! <br></br>Save Money! </p>
               </div>
               <div>
                 <img src={Vector5} alt="" />
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Pay For <br></br>You Use! </p>
               </div>
             </div>
           </div>
