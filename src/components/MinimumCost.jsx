@@ -5,6 +5,7 @@ import Vector2 from "../assets/Vector3.png";
 import Vector3 from "../assets/Vector4.png";
 import Vector4 from "../assets/Vector5.png";
 import Vector5 from "../assets/Vector6.png";
+// import ReactPaginate from "react-paginate";
 
 const MinimumCost = () => {
   return (
@@ -50,6 +51,7 @@ const MinimumCost = () => {
             </div>
           </div>
         </div>
+        {/* <ReactPaginate pageCount={15}/> */}
       </section>
     </>
   );
