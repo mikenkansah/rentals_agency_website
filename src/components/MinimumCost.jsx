@@ -13,7 +13,7 @@ const MinimumCost = () => {
       <section className=" bg-[#F5F5F5]">
         <div className="py-10 md:mx-[10rem]">
           <h1 className="underline-small text-4xl">
-            Minimum Living Cost Takes Care Of Everything
+            Minimum Living Cost Takes Care Of 
           </h1>
           <div className="mt-8 flex gap-10 md:flex-row flex-col ">
             <picture>
