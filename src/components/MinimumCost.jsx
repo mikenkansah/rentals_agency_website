@@ -15,7 +15,7 @@ const MinimumCost = () => {
           <h1 className="underline-small text-4xl">
             Minimum Living Cost Takes Care Of 
           </h1>
-          <div className="mt-8  minimum  ">
+          <div className="mt-8 grid  grid-rows-1 minimum  ">
             <picture className="">
               <img
                 src={picture}
@@ -23,7 +23,7 @@ const MinimumCost = () => {
                 className="aspect-square max-w-[330px] h-[500px] object-cover rounded-tl-[4rem] rounded-br-[4rem]"
               />
             </picture>
-            <div className="grid gap-4 grid-cols-3 grid-rows-2 mt-14 ">
+            <div className="grid gap-x-4 md:grid-cols-3 md:grid-rows-2 grid-cols-2 grid-rows-3 md:mt-14 ">
               <div>
                 <img src={Vector1} alt="" className="bg-white p-4 rounded-lg mb-2 shadow-2xl"  />
                 <p>Pay As Little <br></br>As Possible!</p>

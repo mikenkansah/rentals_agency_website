@@ -25,15 +25,8 @@
     bottom: -5px;
 }
 
-.minimum {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .minimum {
-        background-color: blue;
-        display: grid;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr;
     }
 }
